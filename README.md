@@ -5,5 +5,6 @@ themesフォルダ直下に入れて使います。
 
 ### 注意事項
 
-sassフォルダ（/sass）、jsフォルダ（./js-script）は各テーマフォルダの中にいれる。  
-gulpfile.jsのテーマフォルダ名を変更するの、忘れずに。
+sassフォルダ（/sass）、jsフォルダ（./js-script）は各テーマフォルダの中にいれる。
+
+gulpfile.jsのテーマフォルダ名を変更するのと、csscomb.jsonの前にドットつけてリネームするのを忘れずに。

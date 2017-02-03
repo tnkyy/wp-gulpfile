@@ -51,7 +51,6 @@ gulp.task('browser-sync', function() {
 
 // Task for `gulp` command
 gulp.task('default',['browser-sync'], function() {
-    gulp.watch('sass/**/*.scss',['sass']);
-    gulp.watch('js/*.js',['js']);
-    gulp.watch("./*.html", ['bs-reload']);
+    gulp.watch('theme-folder/sass/**/*.scss',['sass']);
+    gulp.watch('theme-folder/js-script/*.js',['js']);
 });
